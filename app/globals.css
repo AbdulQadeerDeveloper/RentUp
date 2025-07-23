@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@layer components {
+  .navbarLi {
+    @apply hover:text-hoverColor cursor-pointer duration-300;
+  }
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.paraTop {
+  position: relative;
+  top: 12rem;
+}
+
+.bg-white.shadow-lg.rounded-md.px-4.sm\:px-6.py-4.flex.flex-col.md\:flex-row.flex-wrap.gap-4.justify-between.items-center.text-black.max-w-\[1000px\].mx-auto.mt-8.md\:-mb-12 {
+  position: relative;
+  top: 12.5rem;
+}
+
+.bg-\[\#F7F9FC\].rounded-xl.shadow-md.p-6.text-center {
+  border-radius: 6px;
+  box-shadow: rgba(112, 121, 138, 0.18) 0px 0px 20px 0px;
+  cursor: pointer;
+  padding: 30px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .form-container {
+    flex-direction: row;
+    margin-bottom: -3rem;
+  }
+
+  .para-top {
+    top: 2rem;
+  }
+}
+
+
+@media (min-width: 640px) {
+
+  .para-top {
+    position: relative;
+    top: 2rem !important;
+  }
+}
