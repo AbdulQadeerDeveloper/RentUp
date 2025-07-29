@@ -20,7 +20,7 @@ const Header = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-6 font-medium text-black">
+        <nav className="hidden lg:flex space-x-6 font-medium text-black">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/services">Services</Link>
@@ -30,7 +30,7 @@ const Header = () => {
         </nav>
 
         {/* Right Buttons */}
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden lg:flex items-center space-x-4">
           <button className="text-black font-medium relative">
             <span className="text-lg">My List</span>
             <span className="absolute -top-2 -right-2 bg-green-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
@@ -44,7 +44,7 @@ const Header = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(true)}
             className="text-black text-2xl"

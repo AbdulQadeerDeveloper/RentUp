@@ -26,7 +26,7 @@ export default function ExploreByLocation() {
             />
             <div className="absolute inset-0 bg-black/40 flex flex-col justify-center items-center text-white z-10">
               <h5 className="text-lg font-semibold mb-2">{location.name}</h5>
-              <p className="flex gap-4 text-sm">
+              <p className="flex gap-[10px] text-sm">
                 <label>{location.villas} Villas</label>
                 <label>{location.offices} Offices</label>
                 <label>{location.apartments} Apartments</label>

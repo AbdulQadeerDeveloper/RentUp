@@ -14,7 +14,8 @@ export default function FeaturedPropertyTypes() {
           Find all type of property in featured category
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
+        {/* Responsive Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6">
           {propertyTypes.map((type, index) => (
             <div
               key={index}
